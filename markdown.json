@@ -1,0 +1,137 @@
+{
+	// Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	// Matrix
+	"0": {
+		"prefix": "\\0",
+		"body": [
+			"\\boldsymbol{0}$1"
+		],
+		"description": ""
+	},
+	"E": {
+		"prefix": "\\E",
+		"body": [
+			"\\boldsymbol{E}$1"
+		],
+		"description": ""
+	},
+	"A": {
+		"prefix": "\\A",
+		"body": [
+			"\\boldsymbol{A}$1"
+		],
+		"description": ""
+	},
+	"B": {
+		"prefix": "\\B",
+		"body": [
+			"\\boldsymbol{B}$1"
+		],
+		"description": ""
+	},
+	"P": {
+		"prefix": "\\P",
+		"body": [
+			"\\boldsymbol{P}$1"
+		],
+		"description": ""
+	},
+	"Q": {
+		"prefix": "\\Q",
+		"body": [
+			"\\boldsymbol{Q}$1"
+		],
+		"description": ""
+	},
+
+	// Vector
+	"xi": {
+		"prefix": "\\xi",
+		"body": [
+			"\\boldsymbol{\\xi}$1"
+		],
+		"description": ""
+	},
+	"eta": {
+		"prefix": "\\eta",
+		"body": [
+			"\\boldsymbol{\\eta}$1"
+		],
+		"description": ""
+	},
+	
+	// N-Vector
+	"ln": {
+		"prefix": "\\ln",
+		"body": [
+			"\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$1"
+		],
+		"description": ""
+	},
+	"xin": {
+		"prefix": "\\xin",
+		"body": [
+			"\\boldsymbol{\\xi}_1,\\boldsymbol{\\xi}_2,\\cdots,\\boldsymbol{\\xi}_n$1"
+		],
+		"description": ""
+	},
+	"etan": {
+		"prefix": "\\etan",
+		"body": [
+			"\\boldsymbol{\\eta}_1,\\boldsymbol{\\eta}_2,\\cdots,\\boldsymbol{\\eta}_n$1"
+		],
+		"description": ""
+	},
+
+	// LaTeX
+	"bmatrix": {
+		"prefix": "\\bmat",
+		"body": [
+			"\\begin{bmatrix} $1 \\end{bmatrix}"
+		],
+		"description": ""
+	},
+	"vmatrix": {
+		"prefix": "\\vmat",
+		"body": [
+			"\\begin{vmatrix} $1 \\end{vmatrix}"
+		],
+		"description": ""
+	},
+
+	// Emoji
+	"lra": {
+		"prefix": "\\lra",
+		"body": [
+			":left_right_arrow:$1"
+		],
+		"description": ""
+	},
+	"la": {
+		"prefix": "\\la",
+		"body": [
+			":arrow_left:$1"
+		],
+		"description": ""
+	},
+	"ra": {
+		"prefix": "\\ra",
+		"body": [
+			":arrow_right:$1"
+		],
+		"description": ""
+	},
+}
