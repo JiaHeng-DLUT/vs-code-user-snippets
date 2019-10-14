@@ -100,14 +100,14 @@
 	"bmatrix": {
 		"prefix": "\\bmat",
 		"body": [
-			"\\begin{bmatrix} $1 \\end{bmatrix}"
+			"\\begin{bmatrix} $1 \\end{bmatrix}$2"
 		],
 		"description": ""
 	},
 	"vmatrix": {
 		"prefix": "\\vmat",
 		"body": [
-			"\\begin{vmatrix} $1 \\end{vmatrix}"
+			"\\begin{vmatrix} $1 \\end{vmatrix}$2"
 		],
 		"description": ""
 	},
