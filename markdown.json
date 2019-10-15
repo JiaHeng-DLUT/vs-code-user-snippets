@@ -56,12 +56,39 @@
 		],
 		"description": ""
 	},
-
 	// Vector
-	"xi": {
-		"prefix": "\\xi",
+	"alpha": {
+		"prefix": "\\alpha",
 		"body": [
-			"\\boldsymbol{\\xi}$1"
+			"\\boldsymbol{\\alpha}$1"
+		],
+		"description": ""
+	},
+	"alphan": {
+		"prefix": "\\alphan",
+		"body": [
+			"\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\cdots,\\boldsymbol{\\alpha}_n$1"
+		],
+		"description": ""
+	},
+	"beta": {
+		"prefix": "\\beta",
+		"body": [
+			"\\boldsymbol{\\beta}$1"
+		],
+		"description": ""
+	},	
+	"betan": {
+		"prefix": "\\betan",
+		"body": [
+			"\\boldsymbol{\\beta}_1,\\boldsymbol{\\beta}_2,\\cdots,\\boldsymbol{\\beta}_n$1"
+		],
+		"description": ""
+	},
+	"Lambda": {
+		"prefix": "\\L",
+		"body": [
+			"\\boldsymbol{\\Lambda}$1"
 		],
 		"description": ""
 	},
@@ -72,12 +99,17 @@
 		],
 		"description": ""
 	},
-	
-	// N-Vector
-	"ln": {
-		"prefix": "\\ln",
+	"etan": {
+		"prefix": "\\etan",
 		"body": [
-			"\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$1"
+			"\\boldsymbol{\\eta}_1,\\boldsymbol{\\eta}_2,\\cdots,\\boldsymbol{\\eta}_n$1"
+		],
+		"description": ""
+	},
+	"xi": {
+		"prefix": "\\xi",
+		"body": [
+			"\\boldsymbol{\\xi}$1"
 		],
 		"description": ""
 	},
@@ -88,14 +120,28 @@
 		],
 		"description": ""
 	},
-	"etan": {
-		"prefix": "\\etan",
+	// Number
+	"an": {
+		"prefix": "\\an",
 		"body": [
-			"\\boldsymbol{\\eta}_1,\\boldsymbol{\\eta}_2,\\cdots,\\boldsymbol{\\eta}_n$1"
+			"a_1,a_2,\\cdots,a_n$1"
 		],
 		"description": ""
 	},
-
+	"bn": {
+		"prefix": "\\bn",
+		"body": [
+			"b_1,b_2,\\cdots,b_n$1"
+		],
+		"description": ""
+	},
+	"ln": {
+		"prefix": "\\ln",
+		"body": [
+			"\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$1"
+		],
+		"description": ""
+	},
 	// LaTeX
 	"bmatrix": {
 		"prefix": "\\bmat",
