@@ -86,7 +86,7 @@
 		"description": ""
 	},
 	"Lambda": {
-		"prefix": "\\L",
+		"prefix": "\\Lambda",
 		"body": [
 			"\\boldsymbol{\\Lambda}$1"
 		],
