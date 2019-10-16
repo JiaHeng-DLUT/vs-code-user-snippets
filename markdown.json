@@ -56,6 +56,7 @@
 		],
 		"description": ""
 	},
+
 	// Vector
 	"alpha": {
 		"prefix": "\\alpha",
@@ -120,6 +121,7 @@
 		],
 		"description": ""
 	},
+
 	// Number
 	"an": {
 		"prefix": "\\an",
@@ -132,6 +134,13 @@
 		"prefix": "\\bn",
 		"body": [
 			"b_1,b_2,\\cdots,b_n$1"
+		],
+		"description": ""
+	},
+	"xn": {
+		"prefix": "\\xn",
+		"body": [
+			"x_1,x_2,\\cdots,x_n$1"
 		],
 		"description": ""
 	},
